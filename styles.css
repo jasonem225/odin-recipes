@@ -1,0 +1,27 @@
+/* debated between creating seperate css for recipes, 
+    but since home page only has header and linnks to recipes, 
+    decided it would be ok with just one css file */
+
+/* home page has h1 header and unnordered list of links */
+
+/* recipes have h1 header, imgs, p description, 
+    and h3 headers with unordered lists (ingredients, li) 
+    and ordered lists (instructions, li) */
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol {
+    background-color: black;
+    color: white;
+}
